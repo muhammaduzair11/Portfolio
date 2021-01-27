@@ -70,6 +70,7 @@ body{
   margin: 1rem 2rem;
   color: transparent;
   color: #fff;
+  animation: title 1s;
   background: #add;
   -webkit-background-clip: text;
   -moz-background-clip: text;

@@ -65,6 +65,7 @@ body {
 }
 
 .brand-title {
+  animation: title 1s;
   font-size: 2.5rem;
   margin: 1rem 2rem;
   color: transparent;
