@@ -314,7 +314,9 @@ form .form-row .textarea {
   .navbar-links.active {
     display: flex;
   }
-
+  .container{
+    width: 400px;
+  }
   .container .text {
     font-size: 30px;
   }
