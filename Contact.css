@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   outline: none;
 }
+
 /* animations */
 @keyframes me {
   0% {
@@ -13,11 +13,12 @@
   }
 
   100% {
-    transform: rotate(xx);
+    transform: rotate();
     opacity: 1;
     color: #117a71;
   }
 }
+
 @keyframes title {
   0% {
     transform: rotate(0) translateX(-30rem);
@@ -35,10 +36,12 @@
     transform: rotate(0);
   }
 }
+
 /* body */
-body{
+body {
   background-color: #025252;
 }
+
 /* Upper */
 #upper {
   width: 100%;
@@ -125,6 +128,7 @@ body{
   background-color: white;
   border-radius: 10px;
 }
+
 /* Main */
 .container {
   max-width: 800px;
@@ -147,6 +151,13 @@ body{
   text-align: center;
   font-size: 35px;
   font-weight: 600;
+  color: transparent;
+  color: #000;
+  background: #0f0000;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 1px 1px #ddd;
 }
 
 .container form {
@@ -303,23 +314,24 @@ form .form-row .textarea {
   .navbar-links.active {
     display: flex;
   }
-   .container .text {
-     font-size: 30px;
-   }
 
-   .container form {
-     padding: 10px 0 0 0;
-   }
+  .container .text {
+    font-size: 30px;
+  }
 
-   .container form .form-row {
-     display: block;
-   }
+  .container form {
+    padding: 10px 0 0 0;
+  }
 
-   form .form-row .input-data {
-     margin: 35px 0 !important;
-   }
+  .container form .form-row {
+    display: block;
+  }
 
-   .submit-btn .input-data {
-     width: 40% !important;
-   }
+  form .form-row .input-data {
+    margin: 35px 0 !important;
+  }
+
+  .submit-btn .input-data {
+    width: 40% !important;
+  }
 }
