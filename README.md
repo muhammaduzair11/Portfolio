@@ -1,2 +1,2 @@
 # Portfolio
- www.muhammaduzair.netlify.app
+https://muhammaduzair.netlify.app/
