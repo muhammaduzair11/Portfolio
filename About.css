@@ -3,7 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Animations */
+@keyframes me {
+  0% {
+    opacity: 0;
+    color: #000;
+  }
 
+  100% {
+    transform: rotate();
+    opacity: 1;
+    color: #117a71;
+  }
+}
+@keyframes title {
+  0% {
+    transform: rotate(0) translateX(-30rem);
+  }
+
+  65% {
+    transform: rotate(0);
+  }
+
+  81% {
+    transform: rotate(0) translateX(-1rem);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+/* body */
 body {
   background-color: #025251;
 }
@@ -68,8 +98,11 @@ body {
   text-decoration: none;
   color: #afffff;
   padding: 1.2rem;
+  transition: all 1s;
 }
-
+.navbar-links li a:hover {
+  background-color: #002727;
+}
 .toggle-button {
   position: absolute;
   top: .75rem;
