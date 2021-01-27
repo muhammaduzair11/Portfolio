@@ -121,6 +121,7 @@ body {
 .images .first img,
 .second img{
  border: 10px inset #333;
+ transition: all 1s;
 }
 .images .first img:nth-child(1),
 .second img:nth-child(1) {
@@ -147,8 +148,10 @@ body {
   margin: 0 34%;
   transform: translateY(-100%);
 }
-img:hover{
+.images .first img:hover, .second img:hover{
   z-index: 3;
+  height: 60%;
+  width: 60%;
 }
 @media (max-width: 800px) {
     * {
